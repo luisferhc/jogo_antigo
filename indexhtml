@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Jogo Antigo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Início Header-->
+    <header>
+        <div class="container-grid">
+        <a href=""><img src="img/logo_168px.png" alt="Logo do Site Jogo Antigo"></a>
+            <nav class="menu">
+                <a href="">Quem somos</a>
+                <a href="">Conteúdo</a>
+                <a href="">Campeonatos</a>
+                <a href="">Loja</a>
+            </nav>
+        </div>
+    </header>
+    <!--Fim Header-->
+    <!--Início Banner-->
+    <section class="banner">
+        <div class="container-grid posicao-texto">
+            <div class="imagem-banner">
+                <img src="img/imagem_banner_510x380.jpg" alt="Imagem Banner">
+            </div>
+            <div class="texto-banner">
+                <h1>80's Arcade League 2022</h1>
+                <p>Um campeonato de Odyssey e Atari com consoles originais!</p>
+                <a href="">Inscreva-se</a>
+            </div>
+        </div>
+    </section>
+    <!--Fim Banner-->
+</body>
+</html>

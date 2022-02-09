@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Início Header*/
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #1E1C21;
+    height: 80px;
+    }
+
+.menu{
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+/*Fim Header*/
+
+/*Início Banner*/
+.banner{
+    background-color: black;
+    height: 500px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.posicao-texto{
+    justify-content: space-between;
+}
+
+.texto-banner{
+    width: 495px;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+.texto-banner h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texto-banner a{
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.texto-banner p{
+    margin-bottom: 50px;
+}
+
+.imagem-banner{
+    float: left;
+}
+/*Fim Banner*/
+
+
+
+
+    
