@@ -35,12 +35,10 @@ header{
     font-size: 16px;
 }
 /*Fim Header*/
-
 /*Início Banner*/
 .banner{
     background-color: black;
     height: 500px;
-    background-repeat: none;
     background-size: cover;
 }
 
@@ -60,6 +58,7 @@ header{
     font-family: 'Press Start 2P', cursive;
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .texto-banner a{
@@ -74,13 +73,49 @@ header{
 .texto-banner p{
     margin-bottom: 50px;
 }
-
-.imagem-banner{
-    float: left;
-}
 /*Fim Banner*/
+/*Início Secao Jogos*/
+.secao-jogos{
+    background-color: black;
+}
 
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Fim Secao Jogos*/
+/*Inicio Secao Consoles*/
+.secao-consoles{
+    background-color: black;
+    padding-top: 50px;
+}
+ 
+.consoles:{
+    display: flex;
+    justify-content: space-between;
+}
 
+.texto-consoles{
+    width: 580px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
 
+.texto-consoles h2{
+    margin-bottom: 15px;
+}
 
-    
+.texto-consoles p{
+    margin-bottom: 15px;
+}
+
+.texto-consoles a{
+    color: tomato;
+}
+
+.imagem-consoles{
+    float: right;
+}
+/*Fim Secao Consoles*/
