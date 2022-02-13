@@ -77,6 +77,7 @@ header{
 /*Início Secao Jogos*/
 .secao-jogos{
     background-color: black;
+    height: 200px;
 }
 
 .jogos{
@@ -85,13 +86,14 @@ header{
     align-items: center;
 }
 /*Fim Secao Jogos*/
+
 /*Inicio Secao Consoles*/
 .secao-consoles{
-    background-color: black;
+    background-color: #1E1C21;
     padding-top: 50px;
 }
  
-.consoles:{
+.consoles{
     display: flex;
     justify-content: space-between;
 }
@@ -119,3 +121,74 @@ header{
     float: right;
 }
 /*Fim Secao Consoles*/
+
+/*Início Secao Jogue Online*/
+.secao-jogue-online{
+    background-color: black;
+    height: 500px;
+}
+
+.secao-jogue-online h1{
+    display:grid;
+    justify-items: center;
+    color: white;
+    padding-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.jogue-online{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardjogo{
+    width: 15em;
+    height: 22.5em;
+    background: var(--gradient);
+    color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px tomato,0px 0px 30px tomato;
+}
+
+.cardjogo img{
+    width: 15em;
+}
+
+.cardjogo h3{
+    font-size: 16px;
+    padding-top: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cardjogo p {
+    font-size: 16px;
+    padding-left: 16px;
+}
+/*Fim Secao Jogue Online*/
+
+/*Início Footer*/
+footer{
+    background-color: #1E1C21;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.footer p{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+.redes-sociais-footer{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Fim Footer*/

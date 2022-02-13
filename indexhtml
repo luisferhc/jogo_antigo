@@ -16,7 +16,7 @@
                 <a href="">Quem somos</a>
                 <a href="">Conteúdo</a>
                 <a href="">Loja</a>
-                <a href="">Login</a>
+                <a href="login.html">Login</a>
             </nav>
         </div>
     </header>
@@ -36,6 +36,7 @@
         </div>
     </section>
     <!--Fim Banner-->
+
     <!--Início Secao Jogos-->
     <section class="secao-jogos">
         <div class="container-grid jogos"> <!--no modelo a classe estava "jogos container"-->
@@ -47,6 +48,7 @@
         </div>
     </section>
     <!--Fim Secao Jogos-->
+
     <!--Inicio Secao Consoles-->
     <section class="secao-consoles">
         <div class="container-grid consoles">
@@ -70,5 +72,51 @@
         </div>
     </section>
     <!--Fim Secao Consoles-->
+
+    <!--Início Seção Jogue Online-->
+    <section class="secao-jogue-online">
+        <h1>Jogue Online</h1>
+        <div class="container-grid jogue-online">
+            <div class="cardjogo">
+                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <h3>Pong</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
+                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
+            </div>
+            <div class="cardjogo">
+                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <h3>Atari</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
+                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
+            </div>
+            <div class="cardjogo">
+                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <h3>Odyssey</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
+                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
+            </div>
+            <div class="cardjogo">
+                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <h3>Mega Drive</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
+                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
+            </div>
+        </div>
+    </section>
+    <!--Fim Seção Jogue Online-->
+
+    <!--Início Footer-->
+    <footer>
+        <div class="container-grid footer">
+            <a href="indexhtml"><img src="img/logo_168px.png" alt="Logo do Site"></a><!--logo-->
+            <p>Rua Julieta dos Espíritos 171<br />Barra Velha<br />São Paulo-SP<br />93465-985</p><!--endereço-->
+            <div class="redes-sociais-footer">
+                <a href=""><img src="img/logo_face_50px .png"></a>
+                <a href=""><img src="img/logo_insta_50px.png"></a>
+                <a href=""><img src="img/logo_whats_50px.png"></a>
+            </div>
+        </div>
+    </footer>
+    <!--Fim Footer-->
 </body>
 </html>
