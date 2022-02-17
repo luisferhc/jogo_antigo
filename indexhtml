@@ -60,10 +60,8 @@
                     Ut enim ad minim veniam, quis nostrud exercitation 
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate 
-                    velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est 
-                    laborum... <a href="">Saiba mais</a></p>
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                    ... <a href="">Saiba mais</a></p>
             </div>
             <div class="imagem-consoles">
                 <img src="img/console_e_tv.png" alt="Imagem de console antigo e tv" width="680" height="421">
@@ -78,28 +76,20 @@
         <h1>Jogue Online</h1>
         <div class="container-grid jogue-online">
             <div class="cardjogo">
-                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <img src="img/console_pong.jpg" alt="Imagem do Jogo">
                 <h3>Pong</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
-                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
             </div>
             <div class="cardjogo">
-                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
-                <h3>Atari</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
-                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
+                <img src="img/console_atari_2600.jpg" alt="Imagem do Jogo">
+                <h3>Atari 2600</h3>
             </div>
             <div class="cardjogo">
-                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <img src="img/console_odyssey.jpg" alt="Imagem do Jogo">
                 <h3>Odyssey</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
-                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
             </div>
             <div class="cardjogo">
-                <img src="img/fliperama.jpg" alt="Imagem do Jogo">
+                <img src="img/console_mega-drive.png" alt="Imagem do Jogo">
                 <h3>Mega Drive</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil doloremque sed nobis
-                    aliquam nam saepe assumenda, distinctio nulla tempora velit.</p>
             </div>
         </div>
     </section>
@@ -111,8 +101,8 @@
             <a href="indexhtml"><img src="img/logo_168px.png" alt="Logo do Site"></a><!--logo-->
             <p>Rua Julieta dos Espíritos 171<br />Barra Velha<br />São Paulo-SP<br />93465-985</p><!--endereço-->
             <div class="redes-sociais-footer">
-                <a href=""><img src="img/logo_face_50px .png"></a>
-                <a href=""><img src="img/logo_insta_50px.png"></a>
+                <a href=""><img src="img/logo_face.png"></a>
+                <a href=""><img src="img/logo_instagram.png"></a>
                 <a href=""><img src="img/logo_whats_50px.png"></a>
             </div>
         </div>

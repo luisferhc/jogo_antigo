@@ -132,7 +132,7 @@ header{
     display:grid;
     justify-items: center;
     color: white;
-    padding-top: 30px;
+    padding-top: 50px;
     font-family: 'Press Start 2P', cursive;
     font-size: 24px;
     font-weight: bold;
@@ -142,11 +142,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .cardjogo{
-    width: 15em;
-    height: 22.5em;
+    width: 17em;
+    height: 16em;
     background: var(--gradient);
     color: #fff;
     margin-bottom: 40px;
@@ -154,18 +155,15 @@ header{
 }
 
 .cardjogo img{
-    width: 15em;
+    width: 17em;
+    height: 10em;
 }
 
 .cardjogo h3{
     font-size: 16px;
-    padding-top: 5px;
+    padding-top: 20px;
     font-family: 'Press Start 2P', cursive;
-}
-
-.cardjogo p {
-    font-size: 16px;
-    padding-left: 16px;
+    text-align: center;
 }
 /*Fim Secao Jogue Online*/
 
@@ -188,6 +186,11 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.redes-sociais-footer img{
+    height: 50px;
+    width: 50px;
 }
 
 

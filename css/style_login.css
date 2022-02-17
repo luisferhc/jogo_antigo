@@ -35,17 +35,25 @@ form{
     display: flex;
     justify-items: center;
     width:fit-content;
+    height: fit-content;
     margin: auto;
     flex-direction: column;
 }
 
-label{
+form label{
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     padding-bottom: 5px;
+    width: 200px;
 }
 
-input{
+form input{
     margin-bottom: 15px;
+}
+
+form button{
+    height: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
 }
 
