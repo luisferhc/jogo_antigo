@@ -34,6 +34,11 @@ header{
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
 }
+
+.barras{
+    width: 50px;
+    display: none;
+}
 /*Fim Header*/
 /*Início Banner*/
 .banner{
@@ -192,6 +197,49 @@ footer{
     height: 50px;
     width: 50px;
 }
-
-
 /*Fim Footer*/
+
+.posicionamento-header{
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu{
+        width: 460px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-grid{
+        width: 80%;
+    }
+
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+}

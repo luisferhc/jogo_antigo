@@ -10,14 +10,15 @@
 <body>
     <!--Início Header-->
     <header>
-        <div class="container-grid">
-        <a href=""><img src="img/logo_168px.png" alt="Logo do Site Jogo Antigo"></a>
-            <nav class="menu">
+        <div class="container-grid posicionamento-header">
+        <a href=""><img class="logo" src="img/logo_168px.png" alt="Logo do Site Jogo Antigo"></a>
+            <nav id="menu" class="menu">
                 <a href="">Quem somos</a>
                 <a href="">Conteúdo</a>
                 <a href="">Loja</a>
                 <a href="login.html">Login</a>
             </nav>
+            <a href="#" onclick="mostrarMenu()" id="barras"><img class="barras" src="img/menu_barras.png" alt="Menu de Barras"></a>
         </div>
     </header>
     <!--Fim Header-->
@@ -98,7 +99,7 @@
     <!--Início Footer-->
     <footer>
         <div class="container-grid footer">
-            <a href="indexhtml"><img src="img/logo_168px.png" alt="Logo do Site"></a><!--logo-->
+            <a href="indexhtml"><img class="logo" src="img/logo_168px.png" alt="Logo do Site"></a><!--logo-->
             <p>Rua Julieta dos Espíritos 171<br />Barra Velha<br />São Paulo-SP<br />93465-985</p><!--endereço-->
             <div class="redes-sociais-footer">
                 <a href=""><img src="img/logo_face.png"></a>
@@ -108,5 +109,17 @@
         </div>
     </footer>
     <!--Fim Footer-->
+
+    <script>
+        let menu = document.getElementById("menu");
+        function mostrarMenu(){
+            if(menu.style.display != "flex"){
+                menu.style.display = "flex"
+            }else{
+                menu.style.display = "none"
+            }
+        }
+    </script>
+    
 </body>
 </html>
