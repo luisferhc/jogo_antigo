@@ -183,7 +183,7 @@ footer{
 .footer p{
     color: white;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .redes-sociais-footer{
@@ -194,14 +194,32 @@ footer{
 }
 
 .redes-sociais-footer img{
-    height: 50px;
-    width: 50px;
+    height: 46px;
+    width: 46px;
 }
-/*Fim Footer*/
 
-.posicionamento-header{
-    position: relative;
+.cadastrese h2{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    padding-bottom: 10px;
 }
+
+.cadastrese input[type="email"]{
+    width: 14em;
+    height: 30px;
+}
+
+.botao-cadastrar{
+    width: 8em;
+    height: 30px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    font-size: 1em;
+
+
+/*Fim Footer*/
 
 @media screen and (max-width: 1200px) {
     .container-grid{
@@ -239,7 +257,12 @@ footer{
         text-align: center;
         padding: 15px;
     }
+
+    .menu-ativo{
+        display: flex;
+    }
+
     .posicionamento-header{
         position: relative;
-    }
+    }  
 }
